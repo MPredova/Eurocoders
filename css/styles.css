@@ -1,0 +1,202 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-dark {
+	background-color: #1b2630 !important;
+}
+.nav-light {
+	background-color: #2c3e50 !important;
+}
+.menu li {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+}
+.menu ul {
+	text-align: left;
+}
+.li-icon {
+	width: 30px;
+	height: 30px;
+	color: #e63946;
+}
+/* ====================== ARTBOARD ====================== */
+#artboard {
+	background-color: #f8f8f8;
+}
+.rect-1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 58px;
+	background-color: #1b2630;
+}
+.rect-1-text {
+	top: 19px;
+	left: 262px;
+	width: 266px;
+	height: 18px;
+	text-align: left;
+	color: #ffffff;
+}
+.nav-icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+}
+.main {
+	height: 541px;
+	background-image: url("../images/1.png");
+}
+.board-img {
+	width: 452px;
+	height: 262px;
+	margin: 10px;
+}
+.board-arrow {
+	padding: 20px;
+	background-color: #a8dadc;
+	box-shadow: 0px 0px 10px #00000029;
+}
+.rotateimg180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.txt {
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 2.4px;
+	color: #2c3e50;
+	margin-bottom: 10px;
+}
+.header-name {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0px;
+	color: #2c3e50;
+}
+/* ======================= Lastly Added Items ======================= */
+.card {
+	border: transparent !important;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.card-section {
+	padding-top: 50px;
+}
+.card-price {
+	font-size: 30px;
+	font-weight: bold;
+	color: #457b9d;
+}
+.card-title {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	color: #2c3e50;
+}
+.card-btn {
+	font-size: 16px;
+	font-weight: bold !important;
+	text-align: left;
+	color: #a8dadc;
+	border: transparent;
+	background-color: transparent;
+	padding: 0 !important;
+}
+.card-text {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	color: #2c3e50;
+}
+.card-text span {
+	font-size: 12px;
+	font-weight: 300;
+	text-align: left;
+	color: #8e9aab;
+	margin-left: 15px;
+}
+.card-img-top {
+	width: 152.5px;
+	height: 167px;
+}
+.stickers {
+	float: left;
+}
+.stick-new {
+	padding: 9px 14px;
+	background-color: #457b9d;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.stick-promo {
+	padding: 9px 14px;
+	background-color: #ff9123;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* ======================= Partners ================== */
+.partners-heading {
+	padding-top: 80px;
+	color: #2c3e50;
+	font-size: 32px;
+	font-weight: bold;
+}
+.partners-logo {
+	padding: 30px 50px;
+	border: 1px solid #f8f8f8;
+}
+#footer {
+	background-color: #2c3e50;
+	color: #ffffff;
+}
+/* .main-container {
+	margin: 0px 50px;
+	display: flex;
+	flex-direction: column;
+} */
+.footer-sections {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+}
+.footer-heading {
+	align-self: center;
+	/* font-family: 'Comic Neue'; */
+	font-size: 35px;
+	letter-spacing: 15px;
+	color: #e1e5e9;
+}
+.footer-heading p {
+	font-family: 'Montserrat';
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+/* .footer-section {
+	text-align: left;
+	padding: 0px;
+	margin: 0px 0px;
+	width: 300px;
+	display: flex;
+} */
+.footer-section .section-header {
+	/*TODO Need to make sure the middle one has the same distance as the others later */
+	align-self: center;
+	margin-left: -10%;
+	color: #a8dadc;
+	transform: rotate(90deg);
+	margin: 0px;
+	padding: 0px;
+}
+hr {
+	border: 1px solid #425262;
+}
