@@ -178,9 +178,10 @@
 	display: flex;
 	flex-direction: row;
 	align-self: center;
+	font-size:12px;
 }
 .footer-heading {
-	align-self: center;
+	text-align:center;
 	/* font-family: 'Comic Neue'; */
 	font-size: 35px;
 	letter-spacing: 15px;
@@ -198,7 +199,7 @@
 	width: 300px;
 	display: flex;
 } */
-.footer-section .section-header {
+.section-header {
 	/*TODO Need to make sure the middle one has the same distance as the others later */
 	align-self: center;
 	margin-left: -10%;
@@ -206,7 +207,15 @@
 	transform: rotate(90deg);
 	margin: 0px;
 	padding: 0px;
+	position:relative;
+	left:-150px;
+	top:110px;
+	
 }
 hr {
 	border: 1px solid #425262;
+}
+
+.kategorii{
+	display:flex;
 }
