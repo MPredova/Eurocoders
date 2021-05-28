@@ -258,7 +258,7 @@
 	width: 300px;
 	display: flex;
 } */
-.section-header {
+.section-header:not(.categories) {
 	/*TODO Need to make sure the middle one has the same distance as the others later */
 	align-self: center;
 	margin-left: -10%;
@@ -266,10 +266,36 @@
 	transform: rotate(90deg);
 	margin: 0px;
 	padding: 0px;
-	position:relative;
-	left:-150px;
-	top:110px;
+	/* position:relative; */
+	position:absolute;
+	left:-128px;
+	top:91px;
+	font-size:24px;
 	
+}
+.information-header{
+	top:112px !important;
+	right:60px;
+}
+.section-header.categories{
+	font-size:24px;
+	align-self: center;
+	margin-left: -10%;
+	color: #a8dadc;
+	transform: rotate(90deg);
+	margin: 0px;
+	padding: 0px;
+	position:absolute;
+	right:300px;
+	bottom:263px;
+}
+.footer-section.kategorii{
+	margin-left:167px;
+}
+.section-header.polezno-header{
+	right:63px;
+	top:110px;
+
 }
 hr {
 	border: 1px solid #425262;
@@ -277,4 +303,12 @@ hr {
 
 .kategorii{
 	display:flex;
+}
+.polezno {
+	margin-right:-155px;
+}
+.contacts{
+	font-size:11px;
+	margin-left:60px;
+	margin-right:-80px;
 }
