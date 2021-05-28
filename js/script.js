@@ -1,4 +1,7 @@
-// $( document ).ready(function() {
-//     console.log( "ready!" );
-//     $('.card-btn').hide();
+// $(document).ready(function(){
+
+//     $(".card").hover(function(){
+//         $(".card-btn").toggleClass("active"); 
+//     });
+  
 // });

@@ -10,10 +10,27 @@
 	background-color: #2c3e50 !important;
 	border-bottom: 3px solid #e63946;
 }
-.dropdown-item {
+/* .dropdown-item {
 	list-style-type: disc;
 	color: #e63946;
+} */
+.menu ul{
+	display: flex;
+	list-style: none;
 }
+.menu li{
+	font-size: 12px;
+}
+.menu a{
+	text-decoration: none;
+	color: #2C3E50;
+}
+.menu a:hover{
+	text-decoration: none;
+	color: #2C3E50;
+}
+/* .dropdown{
+} */
 .btn-secondary {
 	border: 0px !important;
 	background-color: transparent !important;
@@ -22,7 +39,6 @@
 .li-icon {
 	width: 30px;
 	height: 30px;
-	color: #e63946;
 }
 .navbar-links a {
 	margin: 0px 5px;
@@ -55,6 +71,9 @@
 	border-bottom-right-radius: 50px;
 	background-color: #ffffff;
 }
+.rounded{
+	border-radius: 50% !important;
+}
 /* ====================== ARTBOARD ====================== */
 #artboard {
 	background-color: #f8f8f8;
@@ -82,7 +101,6 @@
 }
 .main {
 	height: 541px;
-	background-image: url("../images/1.png");
 }
 .main-img-arrow {
 	background-color: red;
@@ -91,9 +109,14 @@
 	position: relative;
 	bottom: 238px;
 }
+.main-img-arrow:hover{
+	padding: 18px 14px;
+	margin-left: 16px;
+	transition: transform .2s;
+}
 .board-img {
 	width: 452px;
-	height: 262px;
+	height: 262px !important;
 	margin: 10px;
 }
 .board-arrow {
@@ -184,7 +207,9 @@
 .card-img-top:hover {
 	transform: scale(1.4);
 }
-
+/* .active{
+	display: none;
+} */
 .stickers {
 	float: left;
 	display: flex;
