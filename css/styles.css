@@ -11,10 +11,17 @@
 	border-bottom: 3px solid #e63946;
 	margin-bottom: 20px;
 }
-/* .dropdown-item {
-	list-style-type: disc;
-	color: #e63946;
-} */
+.dropdown-menu{
+	display: flex;
+	flex-direction: row;
+}
+.dropdown-row{
+	justify-content: space-around;
+}
+.dropdown{
+	display: flex;
+	flex-direction: column;
+}
 .menu ul{
 	display: flex;
 	list-style: none;
@@ -35,8 +42,6 @@
 .menu .row{
 	justify-content: space-evenly;
 }
-/* .dropdown{
-} */
 .btn-secondary {
 	border: 0px !important;
 	background-color: transparent !important;
@@ -354,5 +359,9 @@ hr {
 @media(max-width: 600px){
 	.mobile-hidden{
 		display:none;
+	}
+	.navbar-two{
+		text-align: center;
+		font-size: 20px !important;
 	}
 }
