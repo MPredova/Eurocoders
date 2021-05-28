@@ -14,14 +14,6 @@
 	list-style-type: disc;
 	color: #e63946;
 }
-/* .menu li {
-	display: inline;
-	font-size: 12px;
-	font-weight: bold;
-}
-.menu ul {
-	text-align: left;
-} */
 .btn-secondary {
 	border: 0px !important;
 	background-color: transparent !important;
@@ -34,6 +26,34 @@
 }
 .navbar-links a {
 	margin: 0px 5px;
+}
+.navbar-one{
+	font-size: 14px !important;
+	color: #FFFFFF !important;
+}
+.navbar-two{
+	font-size: 27px !important;
+	color: #E1E5E9 !important;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.navbar-two span{
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-weight: 300;
+}
+.navbar-links a{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.navbar-links a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.magnifying-glass{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: #ffffff;
 }
 /* ====================== ARTBOARD ====================== */
 #artboard {
@@ -66,8 +86,10 @@
 }
 .main-img-arrow {
 	background-color: red;
-	padding: 15px 10px;
+	padding: 12px 7px;
 	opacity: 0.5;
+	position: relative;
+	bottom: 238px;
 }
 .board-img {
 	width: 452px;
@@ -136,6 +158,10 @@
 	background-color: transparent;
 	padding: 0 !important;
 }
+.card-btn:hover{
+	color: #a8dadc;
+	text-decoration: none;
+}
 .card-text {
 	font-size: 14px;
 	font-weight: 300;
@@ -150,9 +176,15 @@
 	margin-left: 15px;
 }
 .card-img-top {
-	width: 152.5px;
+	width: 152px !important;
 	height: 167px;
+	align-self: center;
+	transition: transform .2s;
 }
+.card-img-top:hover {
+	transform: scale(1.4);
+}
+
 .stickers {
 	float: left;
 	display: flex;
@@ -165,6 +197,7 @@
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
+	margin-right: 10px;
 }
 .stick-promo {
 	padding: 9px 14px;
@@ -173,12 +206,14 @@
 	font-size: 14px;
 	font-weight: bold;
 }
+
 /* ======================= Partners ================== */
 .partners-heading {
 	padding-top: 80px;
 	color: #2c3e50;
 	font-size: 32px;
 	font-weight: bold;
+	padding-left: 20px;
 }
 .partners-logo {
 	padding: 30px 50px;
