@@ -337,3 +337,12 @@ hr {
 	margin-left:60px;
 	margin-right:-80px;
 }
+.mobile-hidden{
+	display:block;
+}
+
+@media(max-width: 600px){
+	.mobile-hidden{
+		display:none;
+	}
+}
