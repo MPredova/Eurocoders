@@ -346,3 +346,13 @@ hr {
 .footer-end{
 	font-size: 14px;
 }
+
+.mobile-hidden{
+	display:block;
+}
+
+@media(max-width: 600px){
+	.mobile-hidden{
+		display:none;
+	}
+}
