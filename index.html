@@ -13,30 +13,40 @@
     <title>Number One</title>
 </head>
 <body>
-    <nav class="navbar navbar-light nav-dark justify-content-between">
-        <div class='container'>
-            <a class="navbar-brand bg-white">Navbar</a>
-            <form class="form-inline navbar-links">
-                <a href="">Вход</a>
-                <a href="">Регистрация</a>
-                <a href="">English</a>
-                <a href=""><img src="images/facebook.svg" alt=""></a>
-                <a href=""><img src="images/instagram.svg" alt=""></a>
-            </form>
+    <div style="position:relative; overflow-x:hidden;">
+        <div class="mobile-hidden">
+            <nav class="navbar navbar-light nav-dark justify-content-between">
+                <div class='container'>
+                    <a class="navbar-brand navbar-one">Рекламна агенция Номер Едно АДВ</a>
+                    <form class="form-inline navbar-links">
+                        <a href="">Вход</a>
+                        <a href="">Регистрация</a>
+                        <a href=""><img src="images/united-kingdom.svg" width="30px" height="30px" alt=""><strong>English</strong></a>
+                        <a href=""><img src="images/facebook.svg" alt=""></a>
+                        <a href=""><img src="images/instagram.svg" alt=""></a>
+                    </form>
+                </div>
+            </nav>
         </div>
-    </nav>
     <nav class="navbar navbar-expand-lg navbar-dark nav-light">
         <div class='container'>
-        <a class="navbar-brand" href="#">NUMBER ONE ADVERTISING</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="mobile-headline navbar-brand navbar-two" href="#">NUMBER ONE <br><span>ADVERTISING</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <form action="">
+                    <div class="p-1 bg-light rounded">
+                        <div class="input-group">
+                            <input type="search" aria-describedby="button-addon1" class="form-control border-0 bg-light">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link text-primary"><img src="images/_x32_-Magnifying_Glass.svg"></button>
+                            </div>
+                            </div>
+                        </div>
                     </form>
                 </li>
                 <li class="nav-item">
@@ -51,6 +61,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Контакти</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/empty-cart.svg" width="30px" height="30px">
+                        <div style="display: flex; flex-direction: column;">
+                            <p>Количка</p>
+                            <p>cena</p>
+                        </div> 
+                    </a>
+                </li>
             </ul>
         </div>
         </div>
@@ -58,105 +76,146 @@
 
     <section id="header">
         <div class="container">
-            <div class="menu">
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="textile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Текстил
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="textile">
-                        <ul>
-                            <li class="dropdown-item">1</li>
-                            <li class="dropdown-item">1</li>
-                            <li class="dropdown-item">1</li>
-                            <li class="dropdown-item">1</li>
-                        </ul>
-                    </div>
+            <div class="menu mobile-hidden">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="textile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/textile.svg">
+                                Текстил  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="textile">
+                                <div class="row dropdown-row">
+                                    <div class="col-2">
+                                        <p class="dropdown-item">Тениски</p>
+                                        <p class="dropdown-item">Тениски поло</p>
+                                        <p class="dropdown-item">Тениски с дълъг ръкав</p>
+                                        <p class="dropdown-item">Потници</p>
+                                        <p class="dropdown-item">Блузи пике</p>
+                                        <p class="dropdown-item">Блузи</p>
+                                        <p class="dropdown-item">Суитчъри</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="dropdown-item">Якета</p>
+                                        <p class="dropdown-item">Ризи</p>
+                                        <p class="dropdown-item">Панталони</p>
+                                        <p class="dropdown-item">Пуловери</p>
+                                        <p class="dropdown-item">Жилетки</p>
+                                        <p class="dropdown-item">Вратовръзки</p>
+                                        <p class="dropdown-item">Шорти</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="dropdown-item">Шапки</p>
+                                        <p class="dropdown-item">Козирки</p>
+                                        <p class="dropdown-item">Шалове</p>
+                                        <p class="dropdown-item">Бъфове</p>
+                                        <p class="dropdown-item">Ленти и накитници</p>
+                                        <p class="dropdown-item">Кърпи</p>
+                                        <p class="dropdown-item">Ръкавици</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="dropdown-item">За бебета</p>
+                                        <p class="dropdown-item">Спортно облекло</p>
+                                        <p class="dropdown-item">Корпоративно облекло</p>
+                                        <p class="dropdown-item">Работно облекло</p>
+                                        <p class="dropdown-item">Сигнално облекло</p>
+                                        <p class="dropdown-item">Хавлиени кърпи, халати</p>
+                                        <p class="dropdown-item">Чорапи</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="dropdown-item">Рокли</p>
+                                        <p class="dropdown-item">Елеци</p>
+                                        <p class="dropdown-item">Аксесоари</p>
+                                        <p class="dropdown-item">Обувки</p>
+                                        <p class="dropdown-item">Одеала</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/cpu.svg">
+                                Електроника  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="pen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/pen.svg">
+                                Пишещи средства  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="suitcase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/suitcase.svg">
+                                Офис и бизнес  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="natural-oil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/natural-oil.svg">
+                                Еко Продукти  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="backpack" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/backpack.svg">
+                                Раници, Чанти, Куфари  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="umbrella" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/umbrella.svg">
+                                Чадъри  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/home.svg">
+                                Дом и кухня  
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Електроника
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="electronics">
-                        <ul>
-                            <li class="dropdown-item">2</li>
-                            <li class="dropdown-item">2</li>
-                            <li class="dropdown-item">2</li>
-                            <li class="dropdown-item">2</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- <ul>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Текстил  
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Електроника 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Пишещи средства 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Офис и бизнес 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Еко Продукти 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Раници, Чанти, Куфари 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Чадъри 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Дом и кухня 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Игри и Играчки 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Ключодържатели и Инструменти 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Спорт и Свободно време 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Здраве и красота 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Луксозни подаръци 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                    <li>
-                        <img class="li-icon" src="images/textiles.svg">
-                        Промоции 
-                        <img src="images/arrow-down-sign-to-navigate.svg" class="arrow-down">
-                    </li>
-                </ul> -->
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/puzzle.svg">
+                                Игри и Играчки
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/puzzle.svg">
+                                Ключодържатели и Инструменти
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/basketball.svg">
+                                Спорт и Свободно време  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/healthcare.svg">
+                                Здраве и красота
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/diamond.svg">
+                                Луксозни подаръци  
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" role="button" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="li-icon" width="30px" height="30px" src="images/dropdown list icons/percentage.svg">
+                                Промоции  
+                            </a>
+                        </li>
+                    </ul>
+                </div>                    
             </div>
         </div>
     </section>
@@ -166,21 +225,22 @@
             <div class="row">
                 <img src="images/1.png" class='img-fluid'/>
                 <img src="images/down-arrow.svg" class="main-img-arrow">
+                <img src="images/down-arrow.svg" class="main-img-arrow rotateimg180" style="float: right; left: 1064px;">
             </div>
 
             <div class="row">
-                <div class="col-xl-4"><img class="board-img img-fluid" src="images/store.png">
-                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg">
+                <div class="col-xl-4"><a href="https://www.google.bg/"><img class="board-img img-fluid" src="images/storage-banner.jpg">
+                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg"></a>
                     <p class="txt">Разгледай</p>
                     <h5 class="header-name">Налични на склад</h5>
                 </div>
-                <div class="col-xl-4"><img class="board-img img-fluid" src="images/sale.png">
-                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg">
+                <div class="col-xl-4"><a href="https://www.google.bg/"><img class="board-img img-fluid" src="images/sale-banner.jpg">
+                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg"></a>
                     <p class="txt">Разгледай</p>
                     <h5 class="header-name">Разпродажба</h5>
                 </div>
-                <div class="col-xl-4"><img class="board-img img-fluid" src="images/promotions.png">
-                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg">
+                <div class="col-xl-4"><a href="https://www.google.bg/"><img class="board-img img-fluid" src="images/promotions-banner.jpg">
+                    <img class="board-arrow rotateimg180" src="images/down-arrow.svg"></a>
                     <p class="txt">Разгледай</p>
                     <h5 class="header-name">Промоции</h5>
                 </div>
@@ -211,9 +271,9 @@
                         </div>
                         <img class="card-img-top" src="images/cap-caper.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Шапка  панела</h5>
-                            <p class="card-text">МВ9412 <span>Наличност: 1504</span></p>
-                            <p class="card-price">6.10 лв.</p>
+                            <h5 class="card-title">Държач за шапки</h5>
+                            <p class="card-text">МВ9720 <span>Наличност: 1504</span></p>
+                            <p class="card-price">7.67 лв.</p>
                             <a href="#" class="btn card-btn">
                                 Разгледай <img class="card-arrow" src="images/down-arrow-teal.svg">
                             </a>
@@ -225,11 +285,11 @@
                         <div class="stickers">
                             <p class="stick-new">HOB</p>
                         </div>
-                        <img class="card-img-top" src="images/tshirt.png" alt="Card image cap">
+                         <img class="card-img-top" src="images/tshirt.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Шапка  панела</h5>
-                            <p class="card-text">МВ9412 <span>Наличност: 1504</span></p>
-                            <p class="card-price">6.10 лв.</p>
+                            <h5 class="card-title">Мъжка блуза пике Single J.</h5>
+                            <p class="card-text">211 <span>Наличност: 1504</span></p>
+                            <p class="card-price">16.06 лв.</p>
                             <a href="#" class="btn card-btn">
                                 Разгледай <img class="card-arrow" src="images/down-arrow-teal.svg">
                             </a>
@@ -238,11 +298,11 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img style="margin-top: 73px" class="card-img-top" src="images/mug.png" alt="Card image cap">
+                        <img style="margin-top: 50px" class="card-img-top" src="images/mug.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Шапка  панела</h5>
-                            <p class="card-text">МВ9412 <span>Наличност: 1504</span></p>
-                            <p class="card-price">6.10 лв.</p>
+                            <h5 class="card-title">Керамична чаша Black Berry</h5>
+                            <p class="card-text">44062 <span>Наличност: 1504</span></p>
+                            <p class="card-price">4.56 лв.</p>
                             <a href="#" class="btn card-btn">
                                 Разгледай <img class="card-arrow" src="images/down-arrow-teal.svg">
                             </a>
@@ -260,42 +320,42 @@
             </div>
             <div class="row">
                 <div class="col-xl-3">
-                    <img class="partners-logo img-fluid" src="images/0.png">
-                    <img class="partners-logo img-fluid" src="images/2.png">
-                    <img class="partners-logo img-fluid" src="images/3.png">
-                    <img class="partners-logo img-fluid" src="images/4.png">
+                    <img class="partners-logo img-fluid" src="images/Impression.png">
+                    <img class="partners-logo img-fluid" src="images/Sols.svg">
+                    <img class="partners-logo img-fluid" src="images/MidOcean.png">
+                    <img class="partners-logo img-fluid" src="images/xindaologo.png">
                 </div>
                 <div class="col-xl-3">
-                    <img class="partners-logo img-fluid" src="images/5.png">
-                    <img class="partners-logo img-fluid" src="images/6.png">
-                    <img class="partners-logo img-fluid" src="images/7.png">
-                    <img class="partners-logo img-fluid" src="images/8.png">
+                    <img class="partners-logo img-fluid" src="images/Stricker.png">
+                    <img class="partners-logo img-fluid" src="images/Keya.png">
+                    <img class="partners-logo img-fluid" src="images/Hidea.png">
+                    <img class="partners-logo img-fluid" src="images/Malfini.svg">
                 </div>
                 <div class="col-xl-3">
-                    <img class="partners-logo img-fluid" src="images/9.png">
-                    <img class="partners-logo img-fluid" src="images/10.png">
-                    <img class="partners-logo img-fluid" src="images/11.png">
-                    <img class="partners-logo img-fluid" src="images/12.png">
+                    <img class="partners-logo img-fluid" src="images/RG Publicidad.png">
+                    <img class="partners-logo img-fluid" src="images/RTP Apparel.png">
+                    <img class="partners-logo img-fluid" src="images/Macma.png">
+                    <img class="partners-logo img-fluid" src="images/Roly.png">
                 </div>
                 <div class="col-xl-3">
-                    <img class="partners-logo img-fluid" src="images/13.png">
-                    <img class="partners-logo img-fluid" src="images/14.png">
-                    <img class="partners-logo img-fluid" src="images/15.png">
-                    <img class="partners-logo img-fluid" src="images/16.png">
+                    <img class="partners-logo img-fluid" src="images/logo.png">
+                    <img class="partners-logo img-fluid" src="images/James&Nicholson.png">
+                    <img class="partners-logo img-fluid" src="images/Publik d.o.o..png">
+                    <img class="partners-logo img-fluid" src="images/Myrtle Beach.png">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="footer">
+    <section id="footer-desktop" class="mobile-hidden">
         <div class="container">
             <div class="footer-heading">
                 <h1>Number One</h1>
                 <p>Advertising</p>
             </div>
             <div class="footer-sections">
-                <div class="footer-section information col">
-                    <h2 class="section-header">Информация</h2>
+                <div class="footer-section information col-md-2">
+                    <h2 class="section-header information-header">Информация</h2>
                     <div>
                         <p>Контакти</p>
                         <p>Каталог</p>
@@ -305,8 +365,9 @@
                         <p>FAQ</p>
                     </div>
                 </div>
-                <div class="footer-section polezno col">
-                    <h2 class="section-header">Полезно</h2>
+
+                <div class="footer-section polezno col-md-2">
+                    <h2 class="section-header polezno-header">Полезно</h2>
                     <div>
                         <p>Начини на плащане</p>
                         <p>Грижа за продукта</p>
@@ -315,21 +376,20 @@
                         <p>Политика за замяна на продукти</p>
                     </div>
                 </div>
+
                 <div class="footer-section kategorii col">
-                    <div class="col">
-                        <h2 class="section-header">Категории</h2>
-                        <div>
-                            <p>Текстил</p>
-                            <p>Електроника</p>
-                            <p>Пишеши средства</p>
-                            <p>Офис и бизнес</p>
-                            <p>Еко продукти</p>
-                            <p>Раници, Чанти и Куфари</p>
-                            <p>Чадъри</p>
-                            <p>Дом и Кухня</p>
-                        </div>
+                    <h2 class="section-header categories">Категории</h2>
+                    <div class="col-md-6">
+                        <p>Текстил</p>
+                        <p>Електроника</p>
+                        <p>Пишеши средства</p>
+                        <p>Офис и бизнес</p>
+                        <p>Еко продукти</p>
+                        <p>Раници, Чанти и Куфари</p>
+                        <p>Чадъри</p>
+                        <p>Дом и Кухня</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <p>Игри и Играчки</p>
                         <p>Ключодържатели и Инструменти</p>
                         <p>Спорт и Свободно време</p>
@@ -337,28 +397,70 @@
                         <p>Луксозни подаръци</p>
                     </div>
                 </div>
+
+                <div class="footer-section contacts col">
+                    <h3>+359 2 96 22 331</h3>
+                    <div>
+                        <p><img src="images/phone-contact.svg" width="30px" height="30px">София 1407 бул. Черни връх 47,</p>
+                        <p>БЦ Сивен, ет. 6</p>
+                        <p><span>тел:</span> +359 2 96 22 332</p>
+                        <p>+359 2 96 22 333</p>
+                        <p><span>факс:</span>+359 2 96 22 333</p>
+                        <p><span>e-mail:</span>office@n1adv.com</p>
+                    </div>
+                </div>
+
             </div>
             <hr>
-            <div class="row">
+            <div class="row footer-end">
                 <div class="col">
                    © 2021 <strong>Номер Едно АДВ ЕООД</strong> Всички права запазени
                 </div>
-                <div class="col">
+                <div style="text-align: center;" class="col">
                     <img src="images/facebook.svg" alt="">
                     <img src="images/instagram.svg" alt="">
                 </div>
-                <div class="col">
+                <div style="text-align: end;" class="col">
                     Изграждане и поддръжка ЕUROCODERS
                 </div>
             </div>
         </div>
     </section>
-    
-    
+
+    <section id="footer-mobile" class="desktop-hidden">
+        <div class="footer-heading-mobile">
+            <h1>Number One</h1>
+            <p>Advertising</p>
+        </div>
+        <div class="footer-section contacts">
+            <h3><img src="images/phone-contact.svg" width="30px" height="30px">+359 2 96 22 331</h3>
+            <div>
+                <p>София 1407 бул. Черни връх 47,</p>
+                <p>БЦ Сивен, ет. 6</p>
+                <p><span>тел:</span> +359 2 96 22 332</p>
+                <p>+359 2 96 22 333</p>
+                <p><span>факс:</span>+359 2 96 22 333</p>
+                <p><span>e-mail:</span>office@n1adv.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-end" style="text-align: center;">
+                <div>
+                    Изграждане и поддръжка ЕUROCODERS
+                </div>
+                <div>
+                    <img src="images/facebook.svg" alt="">
+                    <img src="images/instagram.svg" alt="">
+                </div>
+                <div>
+                    © 2021 <strong>Номер Едно АДВ ЕООД</strong><br> Всички права запазени
+                </div>
+            </div>
+    </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
     <script src="js/script.js"></script>
     
 </body>
